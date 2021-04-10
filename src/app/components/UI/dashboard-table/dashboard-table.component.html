@@ -1,0 +1,36 @@
+<div class="container">
+<div class="dashboard-table">
+    <div class="container mt-3">
+    <h6 class="tableheader-text">Recent Transactions</h6>  
+  </div>
+  <div class="container mt-3">
+  <table class="table main-table">
+    <thead>
+    <tr>
+      <th scope="col">Date/time</th>
+      <th scope="col">Category</th>
+      <th scope="col">Reference</th>
+      <th scope="col">Narration</th>
+      <th scope="col">Amount</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+    <tr *ngFor="let transaction of AllTransactions; index as i">
+     
+      <td>{{ transaction.date }}</td>
+      <td>{{ transaction.category }}</td>
+      <td>{{ transaction.reference }}</td>
+      <td>{{ transaction.narration }}</td>
+      <td>{{ transaction.amount }}</td>
+      
+    </tr>
+
+
+    
+
+    </tbody>
+  </table>
+</div>
+</div>
+</div>

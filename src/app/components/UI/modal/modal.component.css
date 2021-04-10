@@ -1,0 +1,78 @@
+.card-view-details {
+  font-size: 12px;
+  color: #5c2799;
+  cursor: pointer;
+}
+
+.modal-width {
+  height: 500px;
+ 
+  word-wrap: break-word;
+}
+
+.modal-header .col-card {
+  width: 230px;
+  height: 120px;
+  font-family: "Courier New", Courier, monospace;
+  background: linear-gradient(
+    128.39deg,
+    rgba(0, 0, 0, 0.6) -29.7%,
+    #000000 16.11%
+  );
+  border-radius: 6px;
+  color: #ffffff;
+  margin-right: 35px;
+  word-wrap: break-word;
+  font-size: 10px;
+  padding:10px;
+ 
+}
+
+.col-bal h6 {
+    word-wrap: break-word;
+    padding-right: 40px;
+    font-size: 10px;
+    text-align: left;
+    color: #5c2799;
+    font-size: 0.8em;
+    float: right;
+}
+
+.col-bal p {
+    word-wrap: break-word;
+    padding-right: 40px;
+    font-size: 10px;
+    text-align: left;
+    color: #5c2799;
+    font-size: 0.8em;
+    float: right;
+}
+
+
+.dashboard-table {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.07);
+    height: fit-content;
+  }
+  
+  .m-tableheader-text {
+    color: #5c2799;
+    font-size: 0.8em;
+  }
+  
+    
+  
+  .table,
+  .table thead th {
+    font-size: 12px;
+    border-top: none;
+    border-bottom: none;
+  }
+  
+  .table thead th {
+      text-transform: uppercase;
+      font-size: 10px;
+    }

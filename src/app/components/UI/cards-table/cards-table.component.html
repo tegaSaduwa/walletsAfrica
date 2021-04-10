@@ -1,0 +1,32 @@
+<div class="container  mt-3">
+  <table class="table main-table">
+    <tbody>
+        <tr *ngFor="let card of Cards; index as i">
+   
+        <td>
+          <div class="table-card">
+            <p class="card-top-num">N{{ card.cardBalance }}</p>
+            <div class="div">
+              <p >
+                <span class="card-bottom-num pr-4 mr-2">{{ card.cvv }}</span>
+                <img
+                  src="../../../../assets/images/verve_logo.png"
+                  alt="cadTypeLogo"
+                  class="card-image"
+                />
+              </p>
+            </div>
+          </div>
+          
+        <app-modal></app-modal>
+        </td>
+
+
+        <td>  <button class="btn btn-sm fund-card-btn">Fund Card</button> </td>
+        <td class="freeze-card">Freeze Card</td>
+        <td class="delete-card">Delete Card</td>
+      </tr>
+     
+    </tbody>
+  </table>
+</div>

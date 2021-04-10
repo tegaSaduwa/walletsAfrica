@@ -1,0 +1,45 @@
+.balance-card {
+  background-color: #011627;
+  text-align: left;
+  padding: 2em 2em 1em 2em;
+  border-radius: 10px;
+  height: 9.5rem;
+}
+
+.balance-card h6 {
+  color: #ffffff;
+  line-height: 0%;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.balance-card h1 {
+  color: #00c9b6;
+  padding-bottom: 1rem;
+  font-weight: 500;
+  height: 62px;
+}
+
+.buttons .btn-balance {
+  background: #d5e9fa;
+  color: #0084f4;
+  border: none;
+  /* padding: 1px 2px 2px 2px; */
+  border-radius: 5px;
+  font-size: 12px;
+  display: inline;
+}
+.buttons .btn-balance img{
+   padding-bottom: 2.5px;
+   width: 13px;
+  }
+
+  .buttons .fund-wallet {
+    background: transparent;
+    color: #00C9B6;
+    border: 1px solid  #00C9B6;
+    padding: 2px 8px 3px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  

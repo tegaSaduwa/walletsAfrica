@@ -1,0 +1,32 @@
+.main {
+  margin-left: 200px;
+  padding: 0px 0px;
+}
+
+.welcome-popup .container {
+  padding: 50px;
+  font-size: 6px;
+}
+
+.welcome-popup-header {
+  text-align: center;
+  margin-top: 10px;
+  line-height: 1em;
+}
+
+.welcome-popup-body {
+  font-size: 12px;
+  color: #000000;
+}
+
+.welcome-popup-btn {
+  font-size: 12px;
+  color: #ffffff;
+  background: #5c2799;
+  font-weight: 200;
+  padding: 8px 30px;
+  display: flex;
+  justify-content: center;
+  margin-left: 110px;
+  margin-top: 5px;
+}

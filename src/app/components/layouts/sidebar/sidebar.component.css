@@ -1,0 +1,60 @@
+
+
+.sidenav {
+  margin-top: 0;
+  background: #5c2799;
+  color: #fff;
+  height: 100%  !important;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 1.5em;
+  line-height: 2em;
+}
+
+.sidenav .sidenav__img {
+  padding-left: 1em;
+  margin-bottom: 1.5em;
+}
+
+.sidenav a {
+  padding: 0 1.5em 0 2.2em;
+  text-decoration: none;
+  text-align: left;
+  font-weight: 100;
+  font-size: 0.7em;
+  color: white;
+  display: block;
+}
+
+.sidenav  a .first-child {
+  margin-top: 4em;
+  
+}
+
+.sidenav a .sidenav__fontRight-sendmoney {
+  height: 0.7em;
+  padding-left: 4rem;
+  display: inline;
+}
+
+.sidenav a .sidenav__fontRight-reports {
+  height: 0.7em;
+  padding-left: 5.3rem;
+  display: inline;
+}
+
+.sidenav a:hover {
+  color: #00c9b6;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}

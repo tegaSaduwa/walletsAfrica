@@ -1,0 +1,41 @@
+.main {
+  margin-left: 200px;
+  padding: 0px 0px;
+}
+
+.cardsheader {
+  font-size: 12px;
+  font-weight: 600;
+  color: #5c2799;
+  float: left;
+  overflow: hidden;
+}
+
+.card-side-btn {
+  float: right;
+  overflow: hidden;
+  border: 1px solid #5c2799;
+  color: #5c2799;
+  margin-right: 20px;
+  font-size: 12px;
+  padding: 5px 8px 5px 8px;
+}
+
+.cards-nav {
+  margin-top: 20px;
+  padding: 50px 50px 30px 20px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.cards-nav .vir-cards {
+    padding-right: 30px;
+}
+
+.cards-nav .vir-cards:hover,
+.cards-nav .physical-cards:hover {
+  color: #5c2799;
+  text-decoration: underline;
+  font-weight: 500;
+  cursor: pointer;
+}
