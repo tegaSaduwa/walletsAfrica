@@ -1,4 +1,12 @@
-# Walletsng
+# Wallets Business Africa
+
+This app is using json server to mock data
+to run the APIs:
+cd api
+json-server --watch transactions.json --port 5555 for allTransactions
+json-server --watch cards.json --port 3000 for allTransactions
+
+***Encountering any issue try saving the model, do not modify, just open and save back
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
 
